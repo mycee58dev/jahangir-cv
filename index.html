@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional CV</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f4f7fa;
+      color: #333;
+    }
+
+    .cv-container {
+      max-width: 1000px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .left-column {
+      background-color: #004080;
+      color: white;
+      padding: 30px;
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .right-column {
+      padding: 30px;
+      flex: 2;
+      min-width: 400px;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 32px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #004080;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      color: #004080;
+    }
+
+    p, li {
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+    }
+
+    .skills ul {
+      columns: 2;
+      list-style: square;
+    }
+
+    @media screen and (max-width: 768px) {
+      .cv-container {
+        flex-direction: column;
+      }
+
+      .skills ul {
+        columns: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cv-container">
+    
+    <div class="left-column">
+      <h1 style="font-size: x-large; font-style: italic;">jahangir khan </h1>
+      <br> <div class="img"><img width="150px" height="120px"  src="./pic.jpg" alt=""></div>
+      <div class="contact-info">
+        <h4>Contact information</h4>
+        <p>Qilla saifullah</p>
+        <p>0334-0028544</p>
+        <p></p>
+        <p>🔗 Jahangirkakar1919@gmail.com</p>
+      </div>
+      <div class="section skills"> <h4>Skills</h4>
+        <ul>
+          <li>video-grapher</li>
+          <li>Photoshop</li>
+          <li>content-creator</li>
+          <li>Team Leadership</li>
+          <li>Problem-solving</li>
+        </ul>
+      </div>
+      <div class="section">
+        <ol>
+            <li style="font-weight: bold; list-style-type: none;">Languages</li>
+        </ol>
+        <ul>
+            <li>Pashto</li>
+            <li>Urdu</li>
+            <li>English</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="right-column">
+      <div class="section">
+        <h2>Profile Summary</h2>
+        <p>Creative and driven content creator with 4+ years of experience in social media management.</p>
+      </div>
+
+      <div class="section">
+        <h2>Experience</h2>
+        <h3>Video-grapher  </h3>
+        <h3>Photo-graphy </h3>
+        <h3>Social work experience –<br> past 5 years</h3>
+        <p><em>– Present | Quetta, Pakistan</em></p>
+      </div>
+
+      <div class="section">
+        <h2>Education</h2>
+        <p><strong>BS on going Media-journalism</strong><br>University of Balochistan, 2023 – 2027</p>
+        <p><strong>FA </strong> <br>Degree college Qillasaifullah</p>
+      </div>
+
+      <div class="section">
+        <h2>Certifications</h2>
+        <ul>
+          <li>Agriculture department [UOB]-(2024)</li>
+          <li>Culture Department [UOB]-(2023)</li>
+          <li>Khudi khedmatgar student's foundation Quetta-(2025)</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Interests</h2>
+        <ul>
+            <li>Reporting</li>
+            <li>Video-grapher</li>
+            <li>Photo-graphy</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
